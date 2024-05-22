@@ -108,7 +108,8 @@ class _FlightPlots:
         ax1.set_ylim3d([min_xy, max_xy])
         ax1.set_xlim3d([min_xy, max_xy])
         ax1.view_init(15, 45)
-        plt.show()
+        plt.savefig("flight1.jpg")
+        #plt.show()
 
         return None
 
@@ -352,7 +353,8 @@ class _FlightPlots:
         ax3up.tick_params("y", colors="#1f77b4")
 
         plt.subplots_adjust(hspace=0.5)
-        plt.show()
+        plt.savefig("flight2.jpg")
+        #plt.show()
 
         return None
 
@@ -516,7 +518,8 @@ class _FlightPlots:
         ax4.grid()
 
         plt.subplots_adjust(hspace=0.5)
-        plt.show()
+        plt.savefig("flight3.jpg")
+        #plt.show()
 
         return None
 
