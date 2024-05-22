@@ -353,7 +353,7 @@ class _FlightPlots:
         ax3up.tick_params("y", colors="#1f77b4")
 
         plt.subplots_adjust(hspace=0.5)
-        plt.savefig("flight2.jpg")
+        plt.savefig("vital.png")
         #plt.show()
 
         return None
