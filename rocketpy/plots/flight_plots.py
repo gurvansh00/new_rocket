@@ -626,8 +626,9 @@ class _FlightPlots:
         ax4.grid()
 
         plt.subplots_adjust(hspace=1)
-        #plt.show()
         plt.savefig('flight5.jpg')
+        #plt.show()
+        
 
         return None
 
